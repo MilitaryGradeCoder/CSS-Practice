@@ -1,14 +1,16 @@
 .mainDiv{
-    background-color: grey;
+    background-color: #121212;
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .box{
     height: 50px;
     width: 50px;
     background-color: yellow;
-    margin: auto;
+    border-radius: 50%;
+    box-shadow: -200px 0 yellow, 200px 0 yellow, 0 200px yellow, 0 -200px yellow
 }
